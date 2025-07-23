@@ -1,0 +1,229 @@
+{
+  "basic_metrics": {
+    "total_commits": 24400,
+    "first_commit_date": "2012-01-18 15:07:23 +0100",
+    "last_commit_date": "2025-06-13 12:00:08 +0200",
+    "contributor_count": 136,
+    "mps_files_count": 1846,
+    "repository_age_days": 4894
+  },
+  "metamodel_changes": [
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.compare.pattern.baselang/com.mbeddr.mpsutil.compare.pattern.baselang.mpl",
+      "message": "",
+      "date": "",
+      "author": "",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.compare.pattern.baselang/models/structure.mps",
+      "message": "",
+      "date": "",
+      "author": "",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.compare.pattern.generator/com.mbeddr.mpsutil.compare.pattern.generator.mpl",
+      "message": "",
+      "date": "",
+      "author": "",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.compare.pattern.generator/models/structure.mps",
+      "message": "",
+      "date": "",
+      "author": "",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.compare.pattern/com.mbeddr.mpsutil.compare.pattern.mpl",
+      "message": "",
+      "date": "",
+      "author": "",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.compare.pattern/models/structure.mps",
+      "message": "",
+      "date": "",
+      "author": "",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.userstyles/models/intentions.mps",
+      "message": "mpsutil.userstyles: improve wording a bit",
+      "date": "2025-04-10 09:30:04 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.userstyles/models/structure.mps",
+      "message": "Merge remote-tracking branch 'origin/maintenance/mps20243' into merge/mps20243",
+      "date": "2025-04-14 06:58:06 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "4b6bec1cf16 mpsutil.userstyles: add back missing attributed concept",
+      "message": "",
+      "date": "",
+      "author": "",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.userstyles/models/structure.mps",
+      "message": "Merge remote-tracking branch 'origin/maintenance/mps20243' into merge/mps20243",
+      "date": "2025-04-14 06:58:06 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.wizard/languageModels/editor.mps",
+      "message": "Merge remote-tracking branch 'origin/master' into merge/master",
+      "date": "2025-04-14 09:07:17 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.mpsutil/languages/com.mbeddr.mpsutil.wizard/languageModels/structure.mps",
+      "message": "Merge remote-tracking branch 'origin/maintenance/mps20243' into merge/mps20243",
+      "date": "2025-04-14 06:58:06 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.cc/languages/com.mbeddr.cc.requirements.c/c.mpl",
+      "message": "Merge remote-tracking branch 'origin/master' into merge/master",
+      "date": "2025-04-14 09:07:17 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.cc/languages/com.mbeddr.cc.requirements.c/languageModels/structure.mps",
+      "message": "run all migrations",
+      "date": "2025-04-10 07:10:26 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/com.mbeddr.cc/languages/com.mbeddr.cc.requirements.c2doc/com.mbeddr.cc.requirements.c2doc.mpl",
+      "message": "Merge remote-tracking branch 'origin/master' into merge/master",
+      "date": "2025-04-14 09:07:17 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.cc/languages/com.mbeddr.cc.requirements.c2doc/languageModels/structure.mps",
+      "message": "run all migrations",
+      "date": "2025-04-10 07:10:26 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/com.mbeddr.cc/languages/com.mbeddr.cc.requirements.csv/csv.mpl",
+      "message": "Merge remote-tracking branch 'origin/master' into merge/master",
+      "date": "2025-04-14 09:07:17 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.cc/languages/com.mbeddr.cc.requirements.csv/languageModels/structure.mps",
+      "message": "run all migrations",
+      "date": "2025-04-10 07:10:26 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/com.mbeddr.cc/languages/com.mbeddr.cc.requirements.report/com.mbeddr.cc.requirements.report.mpl",
+      "message": "Merge remote-tracking branch 'origin/master' into merge/master",
+      "date": "2025-04-14 09:07:17 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/com.mbeddr.cc/languages/com.mbeddr.cc.requirements.report/languageModels/structure.mps",
+      "message": "run all migrations",
+      "date": "2025-04-10 07:10:26 +0200",
+      "author": "Alexander Pann",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    }
+  ],
+  "contributors": {
+    "top_contributors": [
+      "3950\tMarkus Voelter",
+      "  3038\tdanielratiu",
+      "  2925\tBernd Kolb",
+      "  2683\tDomenik Pavletic",
+      "  1645\tKolja Dummann",
+      "  1390\tSascha Lisson",
+      "  1034\tAlexander Pann",
+      "   959\tStephan Eberle",
+      "   905\tTamas Szabo",
+      "   819\tNiko Stotz"
+    ],
+    "yearly_activity": [
+      "2816 2012",
+      "3673 2013",
+      "4528 2014",
+      "3721 2015",
+      "2707 2016",
+      "2383 2017",
+      " 821 2018",
+      " 612 2019",
+      " 534 2020",
+      " 165 2021",
+      " 344 2022",
+      " 358 2023",
+      "1085 2024",
+      " 653 2025"
+    ]
+  },
+  "timeline": [],
+  "breaking_changes": [],
+  "metamodel_stats": {
+    "structure_commits_count": 16401,
+    "total_mps_commits": 138227
+  },
+  "suitability_score": 86.19779321618309
+}

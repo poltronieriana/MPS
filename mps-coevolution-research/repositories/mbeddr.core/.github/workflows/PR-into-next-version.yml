@@ -1,0 +1,17 @@
+name: PR to merge into the next version
+
+on:
+  push:
+    branches:
+      - 'maintenance/mps*'
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create PR
+        uses: specificlanguages/cascading-merge@v2
+        with:
+          exclude_branch_prefix: maintenance/mps3
+          automerge_new_prs: 'true'
+          token: ${{ secrets.MPS_CI_BUILD_BOT_ACCESS_TOKEN }}

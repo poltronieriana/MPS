@@ -1,0 +1,226 @@
+{
+  "basic_metrics": {
+    "total_commits": 7046,
+    "first_commit_date": "2015-12-09 10:33:25 +0100",
+    "last_commit_date": "2025-06-30 16:33:07 +0200",
+    "contributor_count": 70,
+    "mps_files_count": 679,
+    "repository_age_days": 3491
+  },
+  "metamodel_changes": [
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.artifacts.baseline/models/org.iets3.variability.artifacts.baseline.editor.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.artifacts.baseline/models/org.iets3.variability.artifacts.baseline.structure.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.base/models/org.iets3.variability.base.editor.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.base/models/org.iets3.variability.base.structure.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.configuration.base/models/org.iets3.variability.configuration.base.intentions.mps",
+      "message": "gradle migrate remigrate",
+      "date": "2025-06-30 15:48:04 +0200",
+      "author": "Alexander Rimer",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.configuration.base/models/org.iets3.variability.configuration.base.structure.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.featuremodel.base/models/org.iets3.variability.featuremodel.base.intentions.mps",
+      "message": "gradle migrate remigrate",
+      "date": "2025-06-30 15:48:04 +0200",
+      "author": "Alexander Rimer",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.featuremodel.base/models/org.iets3.variability.featuremodel.base.structure.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.analysis.logic.operator/models/org.iets3.analysis.logic.operator.editor.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.analysis.logic.operator/models/org.iets3.analysis.logic.operator.structure.mps",
+      "message": "Move folders for variability-base modules from IETS3-Core, see tag variability_move_basic_to_iets3_os (#1360).",
+      "date": "2025-06-24 10:01:57 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.contextfilter/models/org.iets3.contextfilter.listeners.mps",
+      "message": "Move folders for variability-base modules from IETS3-Core, see tag variability_move_basic_to_iets3_os (#1360).",
+      "date": "2025-06-24 10:01:57 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.contextfilter/models/org.iets3.contextfilter.structure.mps",
+      "message": "Move folders for variability-base modules from IETS3-Core, see tag variability_move_basic_to_iets3_os (#1360).",
+      "date": "2025-06-24 10:01:57 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.artifacts.base/models/org.iets3.variability.artifacts.base.plugin.mps",
+      "message": "Add mapper to arguments (#1373)",
+      "date": "2025-06-27 11:19:17 +0200",
+      "author": "dbinkele",
+      "files_changed": [],
+      "change_type": "addition",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.artifacts.base/models/org.iets3.variability.artifacts.base.structure.mps",
+      "message": "Move folders for variability-base modules from IETS3-Core, see tag variability_move_basic_to_iets3_os (#1360).",
+      "date": "2025-06-24 10:01:57 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.artifacts.baseline/models/org.iets3.variability.artifacts.baseline.plugin.mps",
+      "message": "Move folders for variability-base modules from IETS3-Core, see tag variability_move_basic_to_iets3_os (#1360).",
+      "date": "2025-06-24 10:01:57 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.artifacts.baseline/models/org.iets3.variability.artifacts.baseline.structure.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.artifacts.typesystem/models/org.iets3.variability.artifacts.typesystem.editor.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.artifacts.typesystem/models/org.iets3.variability.artifacts.typesystem.structure.mps",
+      "message": "Move folders for variability-base modules from IETS3-Core, see tag variability_move_basic_to_iets3_os (#1360).",
+      "date": "2025-06-24 10:01:57 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.base/models/org.iets3.variability.base.plugin.mps",
+      "message": "Move folders for variability-base modules from IETS3-Core, see tag variability_move_basic_to_iets3_os (#1360).",
+      "date": "2025-06-24 10:01:57 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": false
+    },
+    {
+      "hash": "code/languages/org.iets3.opensource/languages/org.iets3.variability.base/models/org.iets3.variability.base.structure.mps",
+      "message": "Run migrate/remigrate.",
+      "date": "2025-06-27 08:28:21 +0200",
+      "author": "Klaus Birken",
+      "files_changed": [],
+      "change_type": "modification",
+      "is_breaking": true
+    }
+  ],
+  "contributors": {
+    "top_contributors": [
+      "1834\tMarkus Voelter",
+      "  1439\tAlexander Pann",
+      "   549\tWladimir Safonov",
+      "   523\tAlexander Rimer",
+      "   299\tSergej Koščejev",
+      "   298\tMichael Gronover",
+      "   297\tLisa Hartl",
+      "   289\tBernd Kolb",
+      "   257\tKolja Dummann",
+      "   191\tBjörn Engelmann"
+    ],
+    "yearly_activity": [
+      "97 2015",
+      "1137 2016",
+      " 962 2017",
+      " 826 2018",
+      " 498 2019",
+      " 402 2020",
+      " 325 2021",
+      " 308 2022",
+      " 330 2023",
+      "1607 2024",
+      " 554 2025"
+    ]
+  },
+  "timeline": [],
+  "breaking_changes": [],
+  "metamodel_stats": {
+    "structure_commits_count": 3733,
+    "total_mps_commits": 25447
+  },
+  "suitability_score": 87.36691492409052
+}

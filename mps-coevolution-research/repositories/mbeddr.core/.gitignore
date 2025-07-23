@@ -1,0 +1,28 @@
+# -----------------------------------------------------------
+# General
+
+/build/
+/artifacts/
+/.gradle/
+/tmp/
+
+.idea/
+**/.mps/workspace.xml
+
+classes_gen/
+doc_gen/
+source_gen/
+source_gen.caches/
+test_gen/
+test_gen.caches/
+
+gradle.properties
+
+# -----------------------------------------------------------
+# Visual Studio Code settings
+.vscode
+/.project
+/.settings/org.eclipse.buildship.core.prefs
+
+/config/
+/system/

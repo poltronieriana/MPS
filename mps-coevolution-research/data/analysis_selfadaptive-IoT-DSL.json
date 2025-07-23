@@ -1,0 +1,29 @@
+{
+  "basic_metrics": {
+    "total_commits": 48,
+    "first_commit_date": "2021-04-27 20:33:34 -0500",
+    "last_commit_date": "2023-03-06 12:51:45 +0100",
+    "contributor_count": 2,
+    "mps_files_count": 11,
+    "repository_age_days": 677
+  },
+  "metamodel_changes": [],
+  "contributors": {
+    "top_contributors": [
+      "47\tivan-alfonso",
+      "     1\tJordi Cabot"
+    ],
+    "yearly_activity": [
+      "16 2021",
+      "  30 2022",
+      "   2 2023"
+    ]
+  },
+  "timeline": [],
+  "breaking_changes": [],
+  "metamodel_stats": {
+    "structure_commits_count": 0,
+    "total_mps_commits": 0
+  },
+  "suitability_score": 4.258788774002954
+}
