@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 MPS Repository Analyzer - Análise de Co-evolução de Metamodelos
-Autor: Ana Carolina Poltronieri
 Propósito: Coletar dados sobre evolução de DSLs em repositórios MPS
 """
 

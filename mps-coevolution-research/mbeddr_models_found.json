@@ -1,0 +1,90 @@
+[
+  {
+    "owner": "mbeddr",
+    "name": "mbeddr.core",
+    "description": "The mbeddr core. An extensible C",
+    "stars": 227,
+    "url": "https://github.com/mbeddr/mbeddr.core",
+    "found_at": "2025-09-24T16:20:49.788063"
+  },
+  {
+    "owner": "mbeddr",
+    "name": "mbeddr.formal",
+    "description": "FASTEN: FormAl SpecificaTion ENvironment - a set of DSLs to experiment with rigorous systems and safety engineering. ",
+    "stars": 27,
+    "url": "https://github.com/mbeddr/mbeddr.formal",
+    "found_at": "2025-09-24T16:20:50.686312"
+  },
+  {
+    "owner": "coolya",
+    "name": "mbeddr.arduino",
+    "description": "No description`",
+    "stars": 20,
+    "url": "https://github.com/coolya/mbeddr.arduino",
+    "found_at": "2025-09-24T16:20:50.093118"
+  },
+  {
+    "owner": "mbeddr",
+    "name": "mps-platform-docs",
+    "description": "This website collects practical knowledge about MPS and platforms such as MPS-extensions and mbeddr.",
+    "stars": 10,
+    "url": "https://github.com/mbeddr/mps-platform-docs",
+    "found_at": "2025-09-24T16:20:53.351627"
+  },
+  {
+    "owner": "aykutkilic",
+    "name": "aynth",
+    "description": "mbeddr based synth.",
+    "stars": 3,
+    "url": "https://github.com/aykutkilic/aynth",
+    "found_at": "2025-09-24T16:20:52.551784"
+  },
+  {
+    "owner": "z9luo",
+    "name": "BSML-mbeddr",
+    "description": "A concurrent, hierarchical, semantically configurable state-machine modelling language in a C programming environment",
+    "stars": 2,
+    "url": "https://github.com/z9luo/BSML-mbeddr",
+    "found_at": "2025-09-24T16:20:53.992809"
+  },
+  {
+    "owner": "ftomassetti",
+    "name": "mbeddr1687b",
+    "description": "No description`",
+    "stars": 0,
+    "url": "https://github.com/ftomassetti/mbeddr1687b",
+    "found_at": "2025-09-24T16:20:54.306096"
+  },
+  {
+    "owner": "szabta89",
+    "name": "mbeddr.concurrent",
+    "description": "concurrency support in mbeddr",
+    "stars": 0,
+    "url": "https://github.com/szabta89/mbeddr.concurrent",
+    "found_at": "2025-09-24T16:20:55.606509"
+  },
+  {
+    "owner": "miyamotk",
+    "name": "mbeddr",
+    "description": "No description`",
+    "stars": 0,
+    "url": "https://github.com/miyamotk/mbeddr",
+    "found_at": "2025-09-24T16:20:56.290521"
+  },
+  {
+    "owner": "janosch715",
+    "name": "mbeddr.core",
+    "description": "No description`",
+    "stars": 0,
+    "url": "https://github.com/janosch715/mbeddr.core",
+    "found_at": "2025-09-24T16:20:59.667868"
+  },
+  {
+    "owner": "eugenschindler",
+    "name": "mps-mbeddr-intro-course-exercises",
+    "description": "Exercises for DSL-ifying a C program with mbeddr, also adding a self-made language abstraction",
+    "stars": 0,
+    "url": "https://github.com/eugenschindler/mps-mbeddr-intro-course-exercises",
+    "found_at": "2025-09-24T16:21:06.316541"
+  }
+]

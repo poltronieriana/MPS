@@ -1,0 +1,58 @@
+[
+  {
+    "owner": "mbeddr",
+    "name": "mbeddr.core",
+    "description": "The mbeddr core. An extensible C",
+    "stars": 228,
+    "url": "https://github.com/mbeddr/mbeddr.core",
+    "found_at": "2025-07-31T20:18:14.790680"
+  },
+  {
+    "owner": "mbeddr",
+    "name": "mbeddr.formal",
+    "description": "FASTEN: FormAl SpecificaTion ENvironment - a set of DSLs to experiment with rigorous systems and safety engineering. ",
+    "stars": 27,
+    "url": "https://github.com/mbeddr/mbeddr.formal",
+    "found_at": "2025-07-31T20:18:16.702572"
+  },
+  {
+    "owner": "coolya",
+    "name": "mbeddr.arduino",
+    "description": "Sem descri\u00e7\u00e3o",
+    "stars": 20,
+    "url": "https://github.com/coolya/mbeddr.arduino",
+    "found_at": "2025-07-31T20:18:15.417306"
+  },
+  {
+    "owner": "mbeddr",
+    "name": "mps-platform-docs",
+    "description": "This website collects practical knowledge about MPS and platforms such as MPS-extensions and mbeddr.",
+    "stars": 9,
+    "url": "https://github.com/mbeddr/mps-platform-docs",
+    "found_at": "2025-07-31T20:18:21.973890"
+  },
+  {
+    "owner": "aykutkilic",
+    "name": "aynth",
+    "description": "mbeddr based synth.",
+    "stars": 3,
+    "url": "https://github.com/aykutkilic/aynth",
+    "found_at": "2025-07-31T20:18:20.321906"
+  },
+  {
+    "owner": "janosch715",
+    "name": "mbeddr.core",
+    "description": "Sem descri\u00e7\u00e3o",
+    "stars": 0,
+    "url": "https://github.com/janosch715/mbeddr.core",
+    "found_at": "2025-07-31T20:18:27.261814"
+  },
+  {
+    "owner": "eugenschindler",
+    "name": "mps-mbeddr-intro-course-exercises",
+    "description": "Exercises for DSL-ifying a C program with mbeddr, also adding a self-made language abstraction",
+    "stars": 0,
+    "url": "https://github.com/eugenschindler/mps-mbeddr-intro-course-exercises",
+    "found_at": "2025-07-31T20:18:38.999803"
+  }
+]

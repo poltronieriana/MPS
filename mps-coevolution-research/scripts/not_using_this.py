@@ -3,7 +3,6 @@
 Script para descobrir e analisar modelos do mbeddr no JetBrains MPS
 Criado para pesquisa sobre co-evolução de metamodelos e modelos
 
-Autor: Ana Carolina Poltronieri
 Universidade: Unipampa
 Projeto: Collecting metamodel/model data from JetBrains MPS
 """

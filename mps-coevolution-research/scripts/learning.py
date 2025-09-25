@@ -111,63 +111,137 @@ analisar_um_repositorio("diederikd", "MultiLingual")'''
 
 '''º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚ºº˚º˚º˚º Serious Work º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º˚º'''
 
-
+import time
 import requests  
+import json
+from datetime import datetime
+
+found_models = []
 
 def finding_mbeddr_models():
-    url = "https://api.github.com/search/repositories"
-    
-    queries = [
-        "mbeddr",                    
-        "mbeddr.core", 
-        "com.mbeddr", 
-        "language:mps mbeddr", 
-        "jetbrains mps embedded",
-        "mbeddr language:mps",
-        "mbeddr extension:mpr", 
-        "com.mbeddr.core in:file",
-    ]
-    
-    quantity = 10  
-    
-    for query in queries:
-        print(f"Buscando: {query}")
-        
-        params = {
-            "q": query,
-            "per_page": quantity, 
-        }
-        
-        response = requests.get(url, params=params)
-        
-        if response.status_code == 200:
-            data = response.json()
-            
-            for repo in data['items']:
-                repo_name = repo['name']
-                owner = repo['owner']['login']
-                
-                if is_potential_model_repo(owner, repo_name):
-                    print(f"MODELO ENCONTRADO: {owner}/{repo_name}")
+   url = "https://api.github.com/search/repositories"
+   
+   queries = [
+       "mbeddr",                    
+       "mbeddr.core", 
+       "com.mbeddr", 
+       "language:mps mbeddr", 
+       "jetbrains mps embedded",
+       "mbeddr language:mps",
+       "mbeddr extension:mpr", 
+       "com.mbeddr.core in:file",
+   ]
+   
+   quantity = 20
+   total_models_found = 0
+   
+   for query in queries:
+       print(f"Searching: {query}")
+       
+       params = {
+           "q": query,
+           "per_page": quantity, 
+       }
+       
+       response = requests.get(url, params=params)
+       
+       if response.status_code == 200:
+           data = response.json()
+           
+           for repo in data['items']:
+               repo_name = repo['name']
+               owner = repo['owner']['login']
+               description = repo.get('description') or 'No description`'                
+               if is_potential_model_repo(owner, repo_name):  
+                   stars = repo.get('stargazers_count', 0)
+                   repo_url = repo['html_url']
+                   
+                   model_info = {
+                       'owner': owner,
+                       'name': repo_name,
+                       'description': description,
+                       'stars': stars,
+                       'url': repo_url,
+                       'found_at': datetime.now().isoformat()
+                   }
+                   found_models.append(model_info)
+                   
+                   print(f"  {owner}/{repo_name}")
+                   print(f"     description: {description[:60]}...")
+                   print(f"     Stars: {stars}")
+                   print(f"     URL: {repo_url}")
+                   print(f"     Model found")
+                   print(" ˚º˚º˚º˚º˚º˚º˚")
+                   total_models_found += 1
+       
+       time.sleep(1)
+   
+   print(f"\nTotal models found: {total_models_found}")
+   return total_models_found
 
-def is_potential_model_repo(owner, repo_name):  
-    tree_url = f"https://api.github.com/repos/{owner}/{repo_name}/git/trees/HEAD?recursive=1"
-    
-    response = requests.get(tree_url)
-    
-    if response.status_code == 200:
-        data = response.json()
-        
-        for item in data['tree']:
-            path = item['path']
-            
-            if '/solutions/' in path and path.endswith('.mps'):
-                return True
-            elif '/examples/' in path and path.endswith('.mps'):
-                return True
-            elif '/tests/' in path and path.endswith('.mps'):
-                return True
-    
-    return False
+def is_potential_model_repo(owner, repo_name):
+   tree_url = f"https://api.github.com/repos/{owner}/{repo_name}/git/trees/HEAD?recursive=1"
+   
+   response = requests.get(tree_url)
+   
+   if response.status_code == 200:
+       data = response.json()
+       
+       has_solutions = False
+       has_mps_files = False
+       has_msd_files = False
+       
+       for item in data['tree']:
+           path = item['path']
+           
+           if '/solutions/' in path and path.endswith('.mps'):
+               has_solutions = True
+               has_mps_files = True
+               return True
+           elif '/examples/' in path and path.endswith('.mps'):
+               has_mps_files = True
+               return True  
+           elif '/tests/' in path and path.endswith('.mps'):
+               has_mps_files = True
+               return True
+               
+           if path.endswith('.msd'):
+               has_msd_files = True
+           if '/solutions/' in path:
+               has_solutions = True
+               
+       if has_solutions and (has_msd_files or has_mps_files):
+           return True
+   
+   return False
 
-finding_mbeddr_models()  
+def remove_duplicates():
+    global found_models
+    seen = set()
+    unique_models = []
+    
+    for model in found_models:
+        repo_id = f"{model['owner']}/{model['name']}"
+        if repo_id not in seen:
+            seen.add(repo_id)
+            unique_models.append(model)
+    
+    duplicates_removed = len(found_models) - len(unique_models)
+    found_models = unique_models
+    print(f"Removed {duplicates_removed} duplicates")
+
+finding_mbeddr_models()
+
+remove_duplicates()
+
+print(f"\n º˚º˚ºTotal models found: {len(found_models)}˚º˚º˚º")
+
+found_models.sort(key=lambda x: x['stars'], reverse=True)
+
+print("\nBy star number:")
+for i, model in enumerate(found_models[:5]):
+   print(f"{i+1}. {model['owner']}/{model['name']} - {model['stars']} stars")
+
+with open('mbeddr_models_found.json', 'w') as f:
+   json.dump(found_models, f, indent=2)
+
